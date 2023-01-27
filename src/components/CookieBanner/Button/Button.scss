@@ -1,0 +1,33 @@
+
+.button {
+  box-sizing: border-box;
+  display: block;
+  width: auto;
+  min-height: 42px;
+  padding: 0 16px;
+  border-radius: 24px;
+
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  transition-property: background-color;
+  white-space: pre;
+
+
+
+  &.primary {
+    background: #ffffff;
+    color: #404040;
+    border: 1px solid #404040;
+  }
+
+  &.secondary {
+    background: #404040;
+    color: white;
+    border: 1px solid #404040;
+  }
+}
+
+

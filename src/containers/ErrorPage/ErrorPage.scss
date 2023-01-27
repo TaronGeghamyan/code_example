@@ -1,0 +1,60 @@
+.container {
+  width: 273px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.iconWrapper {
+  position: relative;
+}
+.button {
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  width: 220px;
+  height: 46px !important;
+}
+.round {
+  width: 273px;
+  height: 273px;
+  background-color: #f4f4fa;
+  border-radius: 50%;
+}
+.iconBox {
+  width: 273px;
+  height: 192px;
+  overflow: hidden;
+}
+
+.borderBottom {
+  position: absolute;
+  z-index: -1;
+  bottom: 30px;
+  width: 100%;
+  height: 3px;
+  background-image: linear-gradient(to left, #9aff00, #3fc2f6, #000096);
+  border-radius: 4px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.78;
+  text-align: center;
+  color: #1d1d26;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+.text {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.75;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.5);
+  margin-bottom: 32px;
+}

@@ -1,0 +1,32 @@
+.alert {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.75;
+	letter-spacing: 0.15px;
+	color: #111;
+	padding: 8px 32px;
+	border-radius: 3px;
+}
+
+.success {
+	border: solid 1px #2ee68c;
+	background-color: #e6fff2;
+}
+
+.warning {
+	border: solid 1px #fceb19;
+	background-color: #fffff0;
+}
+
+.error {
+	background-color: #ffedf0;
+	border: solid 1px #ff7591;
+}
+
+.alertIcon {
+	margin-right: 8px;
+}
+

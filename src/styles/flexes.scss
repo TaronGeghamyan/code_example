@@ -1,0 +1,38 @@
+
+.is-flex {
+  display: flex;
+}
+
+.is-full-width {
+  flex: 1 0 100%;
+}
+
+.is-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.is-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.is-centered {
+  display: flex;
+  justify-content: center;
+}
+
+.is-v-centered {
+  display: flex;
+  align-items: center;
+}
+
+.is-v-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+.is-space-between {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,81 @@
+@use 'sass:math';
+
+$sizes: (0, 1, 2, 3, 4, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 80);
+@each $item in $sizes {
+  .p-#{$item} {
+    padding-left: #{math.div($item, 16)}rem;
+    padding-right: #{math.div($item, 16)}rem;
+    padding-top: #{math.div($item, 16)}rem;
+    padding-bottom: #{math.div($item, 16)}rem;
+  }
+  .px-#{$item} {
+    padding-left: #{math.div($item, 16)}rem;
+    padding-right: #{math.div($item, 16)}rem;
+  }
+  .py-#{$item} {
+    padding-top: #{math.div($item, 16)}rem;
+    padding-bottom: #{math.div($item, 16)}rem;
+  }
+  .pt-#{$item} {
+    padding-top: #{math.div($item, 16)}rem;
+  }
+  .pb-#{$item} {
+    padding-bottom: #{math.div($item, 16)}rem;
+  }
+  .pl-#{$item} {
+    padding-left: #{math.div($item, 16)}rem;
+  }
+  .pr-#{$item} {
+    padding-right: #{math.div($item, 16)}rem;
+  }
+  .m-#{$item} {
+    margin-left: #{math.div($item, 16)}rem;
+    margin-right: #{math.div($item, 16)}rem;
+    margin-top: #{math.div($item, 16)}rem;
+    margin-bottom: #{math.div($item, 16)}rem;
+  }
+  .mx-#{$item} {
+    margin-left: #{math.div($item, 16)}rem;
+    margin-right: #{math.div($item, 16)}rem;
+  }
+  .my-#{$item} {
+    margin-top: #{math.div($item, 16)}rem;
+    margin-bottom: #{math.div($item, 16)}rem;
+  }
+  .mt-#{$item} {
+    margin-top: #{math.div($item, 16)}rem;
+  }
+  .mb-#{$item} {
+    margin-bottom: #{math.div($item, 16)}rem;
+  }
+  .ml-#{$item} {
+    margin-left: #{math.div($item, 16)}rem;
+  }
+  .mr-#{$item} {
+    margin-right: #{math.div($item, 16)}rem;
+  }
+}
+
+.m-auto {
+  margin: auto;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.mt-auto {
+  margin-top: auto;
+}
+.mb-auto {
+  margin-bottom: auto;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mr-auto {
+  margin-right: auto;
+}

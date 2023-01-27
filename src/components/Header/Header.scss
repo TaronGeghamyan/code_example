@@ -1,0 +1,44 @@
+@import 'styles/colors';
+@import 'styles/breakpoints';
+@import 'styles/variables';
+
+.wrapper {
+  border-bottom: 1px solid $grayColor;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.07);
+}
+
+.content {
+  position: relative;
+  display: flex;
+  padding: 0 $contentLgXPadding;
+  height: 5rem;
+  align-items: center;
+  justify-content: space-between;
+  max-width: $contentMaxWidth;
+  margin: auto;
+  gap: 1.25rem;
+}
+.select {
+  width: 7.81rem;
+  height: 2.5rem;
+  position: absolute;
+  right: 5%;
+}
+
+@media screen and (max-width: $x-large) {
+  .content {
+    padding: 0 1rem;
+    height: 3.75rem;
+  }
+  .logo {
+    .src-components-Logo-Logo__logo {
+      width: 66px;
+      height: 40px;
+    }
+    img {
+      width: 4.12rem;
+      height: 2.5rem;
+      margin-top: 0.62rem;
+    }
+  }
+}

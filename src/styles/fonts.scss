@@ -1,0 +1,62 @@
+@use 'sass:math';
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../assets/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../assets/fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../assets/fonts/Roboto/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  font-style: normal;
+  src: url('../assets/fonts/Space_Grotesk/static/SpaceGrotesk-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../assets/fonts/Space_Grotesk/static/SpaceGrotesk-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'UniversforBP-Roman';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/UniversforBP-Roman.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'UniversforBP-Roman';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../assets/fonts/UniversNextW01Light.woff') format('truetype');
+}
+
+$fontSizes: (14, 16, 18, 23, 24, 32);
+
+@each $item in $fontSizes {
+  .fs-#{$item} {
+    font-size: #{math.div($item, 16)}rem;
+  }
+}

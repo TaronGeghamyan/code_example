@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "downlevelIteration": true,
+    "noEmit": true,
+    "jsx": "react",
+    "baseUrl": "./src",
+    "paths": {
+      "api/*": ["./lib/api/*"],
+      "configuration": ["./lib/configuration/index.ts"],
+      "configuration/*": ["./lib/configuration/*"],
+      "components/*": ["./components/*"],
+      "utils/*": ["./lib/utils/*"],
+      "contexts/*": ["./contexts/*"]
+    },
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules",
+        "options": {
+          "customMatcher": "\\.(c|le|sa|sc)ss$"
+        }
+      }
+    ]
+  },
+  "include": [
+    "src",
+    "webpack.analyze.js",
+    "webpack.dev.js",
+    "webpack.prod.js",
+    "test/setup.ts",
+    "test/mocks/*.ts"
+  ]
+}

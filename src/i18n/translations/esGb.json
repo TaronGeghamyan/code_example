@@ -1,0 +1,23 @@
+{
+  "translation": {
+    "title": "track",
+    "header": {
+      "ourNetwork": "",
+      "getAntrack": "",
+      "supportCentre": "S",
+      "en": "en",
+      "es": "es"
+    },
+    "footer": {
+
+    },
+    "errorPage": {
+      "title": "",
+      "subtitle": "",
+      "back": "o"
+    },
+    "cancelText": "Cancel",
+    "confirmText": "Confirm",
+    "backText": "back"
+  }
+}

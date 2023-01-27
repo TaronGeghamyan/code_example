@@ -1,0 +1,44 @@
+.collapse {
+  background-color: #fff !important;
+  border: none  !important;
+
+  :global .ant-collapse-item-active {
+    border: none  !important;
+  }
+  :global .ant-collapse-header {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 1.12rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.78;
+    letter-spacing: 0.15px;
+    color: #000096 !important;
+
+    .anticon {
+      right: 0 !important;
+    }
+    svg {
+      color: #090909 !important;
+      font-size: 1.37rem !important;
+    }
+  }
+  :global .ant-collapse-content-box {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  :global .ant-collapse-arrow {
+    cursor: pointer;
+  }
+}
+
+.collapseExtra {
+  :global .ant-switch {
+    &.ant-switch-checked {
+      background-color: #090909 !important;
+    }
+    margin-right: 50px !important;
+  }
+}

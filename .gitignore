@@ -1,0 +1,22 @@
+# production
+/dist
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dependencies
+/node_modules
+
+# IntelliJ Idea stuff
+.idea/
+.vscode/
+.history/
+
+.eslintcache
+.nvmrc
+
+.DS_Store
+
+/coverage

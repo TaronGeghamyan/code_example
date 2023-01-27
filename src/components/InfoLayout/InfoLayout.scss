@@ -1,0 +1,42 @@
+@import 'styles/variables';
+@import 'styles/colors';
+@import 'styles/breakpoints';
+
+.infoContent {
+  max-width: 45.63rem;
+}
+
+.title {
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  color: $textColor;
+}
+.subTitle {
+  font-size: 1.43rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: 0.15px;
+  color: $textColor;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.text {
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: 0.1px;
+  color: $textColor;
+  text-align: left;
+  margin-bottom: 1.5rem;
+
+  ul {
+    padding-inline-start: 0.93rem;
+    li {
+      margin-bottom: 1.5rem;
+    }
+  }
+}

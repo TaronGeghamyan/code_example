@@ -1,0 +1,24 @@
+.circle {
+   animation: 1s loader2 linear infinite;
+   stroke: url(#Gradient);
+   stroke-linecap: round;
+   stroke-width: 4;
+   stroke-dasharray: 138.19107055664062 50;
+   stroke-dashoffset: 0;
+ }
+ .container {
+    width: 118px;
+    height: 118px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ @keyframes loader2 {
+   0% {
+     stroke-dashoffset: 0;
+   }
+   100% {
+     stroke-dashoffset: -188.19107055664062;
+   }
+ }

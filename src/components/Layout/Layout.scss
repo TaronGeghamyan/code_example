@@ -1,0 +1,30 @@
+@import "styles/colors";
+@import "styles/variables";
+@import "styles/breakpoints";
+
+
+.header-content {
+  max-width: $contentMaxWidth;
+  padding: 0 $contentLgXPadding;
+}
+
+.wrapper {
+  margin: 0 auto auto;
+  max-width: $contentMaxWidth;
+  padding: $contentLgYPadding $contentLgXPadding;
+}
+
+@media screen and (max-width: $x-large) {
+  .header-content {
+    padding: 0 $contentLgXPadding;
+  }
+}
+
+@media screen and (max-width: $medium) {
+  .header-content {
+    padding: 0 1rem;
+  }
+  .wrapper {
+    padding: $contentMdYPadding $contentMdXPadding;
+  }
+}

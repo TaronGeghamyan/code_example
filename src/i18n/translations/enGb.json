@@ -1,0 +1,56 @@
+{
+  "translation": {
+    "title": "track",
+    "header": {
+      "ourNetwork": "Our network",
+      "getAntrack": "",
+      "supportCentre": "Support centre",
+      "en": "en",
+      "es": "es"
+    },
+    "footer": {
+      "copyrightTitle": "Copyright",
+      "copyrightText": "track. ",
+      "privacyPolicy": "Privacy policy",
+      "termsOfUse": "",
+      "cookiePolicy": "Cookie policy",
+      "usefulInfo": "Useful info",
+      "supportCentre": "Support centre",
+      "headOffices": "",
+      "headOfficesAddress": "",
+      "headOfficesPhone": ""
+    },
+    "landingPage": {
+      "title": "",
+      "subtitle": "",
+      "tile": {
+        "title": "",
+        "button": ""
+      },
+      "charging": {
+        "title": "",
+        "subtitle": "",
+        "block1": {
+          "title": "",
+          "subtitle": ""
+        },
+        "block2": {
+          "title": "",
+          "subtitle": ""
+        },
+        "block3": {
+          "title": "",
+          "subtitle": ""
+        }
+      }
+    },
+    "errorPage": {
+      "title": "Oops",
+      "subtitle": "Page is no longer available.",
+      "back": "Back to homepage"
+    },
+    "cancelText": "Cancel",
+    "confirmText": "Confirm",
+    "backText": "back"
+  }
+}

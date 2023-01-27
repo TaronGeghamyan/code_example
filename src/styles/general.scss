@@ -1,0 +1,34 @@
+@import "./colors";
+@import "./breakpoints";
+@import "variables";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto;
+  color: $textColor;
+  line-height: 1.52;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: $linkColor;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  margin: 0;
+}
